@@ -1,0 +1,20 @@
+# ==============================
+# NODE.JS BACKEND - .gitignore
+# ==============================
+
+# ⚠️ NEVER UPLOAD THIS FILE TO GITHUB
+# Real secrets: DB password, JWT secret
+.env
+.env.local
+.env.production
+
+# Dependencies (too large to upload, regenerate with npm install)
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
